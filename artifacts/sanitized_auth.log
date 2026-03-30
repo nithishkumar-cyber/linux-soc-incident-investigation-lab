@@ -1,0 +1,339 @@
+host Darkangel sudo: user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log day2_raw_auth.log
+host Darkangel sudo: user(sudo:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel sudo: user(sudo:session): session closed for user user
+host Darkangel sudo: user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' day2_raw_auth.log
+host Darkangel sudo: user(sudo:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel sudo: user(sudo:session): session closed for user user
+host Darkangel CRON[11583]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[11583]: pam_unix(cron:session): session closed for user user
+host Darkangel sudo: user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/nano day2_raw_auth.log
+host Darkangel sudo: user(sudo:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel sudo: user(sudo:session): session closed for user user
+host Darkangel sudo: user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+host Darkangel sudo: user(sudo:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel sudo: user(sudo:session): session closed for user user
+host Darkangel systemd-logind[756]: New seat seat0.
+host Darkangel polkitd[752]: Loading rules from directory /etc/polkit-1/rules.d
+host Darkangel polkitd[752]: Loading rules from directory /run/polkit-1/rules.d
+host Darkangel polkitd[752]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[752]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+host Darkangel polkitd[752]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[752]: Loading rules from directory /usr/share/polkit-1/rules.d
+host Darkangel polkitd[752]: Finished loading, compiling and executing 7 rules
+host Darkangel polkitd[752]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+host Darkangel sshd[1047]: Server listening on X.X.X.X port XXXX.
+host Darkangel sshd[1047]: Server listening on :: port XXXX.
+host Darkangel systemd-logind[756]: Watching system buttons on /dev/input/event1 (Power Button)
+host Darkangel systemd-logind[756]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel systemd-logind[756]: New session c1 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[756]: New session 1 of user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel lightdm: gkr-pam: unable to locate daemon control file
+host Darkangel lightdm: gkr-pam: stashed password to try later in open session
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+host Darkangel lightdm: pam_unix(lightdm:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[756]: New session 2 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[756]: New session 3 of user user
+host Darkangel systemd-logind[756]: Removed session c1.
+host Darkangel lightdm: gkr-pam: unlocked login keyring
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel systemd-logind[756]: Removed session 1.
+host Darkangel polkitd[752]: Registered Authentication Agent for user:2 (system bus name :1.49 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+host Darkangel CRON[5321]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[5321]: pam_unix(cron:session): session closed for user user
+host Darkangel systemd-logind[796]: New seat seat0.
+host Darkangel polkitd[790]: Loading rules from directory /etc/polkit-1/rules.d
+host Darkangel polkitd[790]: Loading rules from directory /run/polkit-1/rules.d
+host Darkangel polkitd[790]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[790]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+host Darkangel polkitd[790]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[790]: Loading rules from directory /usr/share/polkit-1/rules.d
+host Darkangel polkitd[790]: Finished loading, compiling and executing 7 rules
+host Darkangel polkitd[790]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+host Darkangel sshd[1064]: Server listening on X.X.X.X port XXXX.
+host Darkangel sshd[1064]: Server listening on :: port XXXX.
+host Darkangel systemd-logind[796]: Watching system buttons on /dev/input/event1 (Power Button)
+host Darkangel systemd-logind[796]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel systemd-logind[796]: New session c1 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[796]: New session 1 of user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel lightdm: gkr-pam: unable to locate daemon control file
+host Darkangel lightdm: gkr-pam: stashed password to try later in open session
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+host Darkangel lightdm: pam_unix(lightdm:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[796]: New session 2 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[796]: New session 3 of user user
+host Darkangel systemd-logind[796]: Removed session c1.
+host Darkangel lightdm: gkr-pam: unlocked login keyring
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel systemd-logind[796]: Removed session 1.
+host Darkangel polkitd[790]: Registered Authentication Agent for user:2 (system bus name :1.49 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+host Darkangel sudo: user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/opt/splunk/bin/splunk start
+host Darkangel sudo: user(sudo:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel sudo: user(sudo:session): session closed for user user
+host Darkangel CRON[5838]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[5838]: pam_unix(cron:session): session closed for user user
+host Darkangel systemd-logind[798]: New seat seat0.
+host Darkangel polkitd[795]: Loading rules from directory /etc/polkit-1/rules.d
+host Darkangel polkitd[795]: Loading rules from directory /run/polkit-1/rules.d
+host Darkangel polkitd[795]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[795]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+host Darkangel polkitd[795]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[795]: Loading rules from directory /usr/share/polkit-1/rules.d
+host Darkangel polkitd[795]: Finished loading, compiling and executing 7 rules
+host Darkangel polkitd[795]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+host Darkangel sshd[1115]: Server listening on X.X.X.X port XXXX.
+host Darkangel sshd[1115]: Server listening on :: port XXXX.
+host Darkangel systemd-logind[798]: Watching system buttons on /dev/input/event1 (Power Button)
+host Darkangel systemd-logind[798]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel systemd-logind[798]: New session c1 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[798]: New session 1 of user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel lightdm: gkr-pam: unable to locate daemon control file
+host Darkangel lightdm: gkr-pam: stashed password to try later in open session
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+host Darkangel lightdm: pam_unix(lightdm:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[798]: New session 2 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[798]: New session 3 of user user
+host Darkangel systemd-logind[798]: Removed session c1.
+host Darkangel lightdm: gkr-pam: unlocked login keyring
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel systemd-logind[798]: Removed session 1.
+host Darkangel polkitd[795]: Registered Authentication Agent for user:2 (system bus name :1.50 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+host Darkangel systemd-logind[770]: New seat seat0.
+host Darkangel polkitd[763]: Loading rules from directory /etc/polkit-1/rules.d
+host Darkangel polkitd[763]: Loading rules from directory /run/polkit-1/rules.d
+host Darkangel polkitd[763]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[763]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+host Darkangel polkitd[763]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[763]: Loading rules from directory /usr/share/polkit-1/rules.d
+host Darkangel polkitd[763]: Finished loading, compiling and executing 7 rules
+host Darkangel polkitd[763]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+host Darkangel sshd[1042]: Server listening on X.X.X.X port XXXX.
+host Darkangel sshd[1042]: Server listening on :: port XXXX.
+host Darkangel systemd-logind[770]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+host Darkangel systemd-logind[770]: Watching system buttons on /dev/input/event1 (Power Button)
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel systemd-logind[770]: New session c1 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[770]: New session 1 of user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel CRON[3122]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[3122]: pam_unix(cron:session): session closed for user user
+host Darkangel lightdm: gkr-pam: unable to locate daemon control file
+host Darkangel lightdm: gkr-pam: stashed password to try later in open session
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+host Darkangel lightdm: pam_unix(lightdm:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[770]: New session 3 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[770]: New session 4 of user user
+host Darkangel systemd-logind[770]: Removed session c1.
+host Darkangel lightdm: gkr-pam: unlocked login keyring
+host Darkangel polkitd[763]: Registered Authentication Agent for user:3 (system bus name :1.49 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+host Darkangel systemd-logind[770]: Removed session 1.
+host Darkangel sshd-session[8277]: Invalid user user from X.X.X.X port XXXX
+host Darkangel sshd-session[8277]: pam_unix(sshd:auth): check pass; user user
+host Darkangel sshd-session[8277]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=X.X.X.X 
+host Darkangel sshd-session[8277]: pam_winbind(sshd:auth): getting password (0x00000388)
+host Darkangel sshd-session[8277]: pam_winbind(sshd:auth): pam_get_item returned a password
+host Darkangel sshd-session[8277]: Failed password for user user whitedevil from X.X.X.X port XXXX ssh2
+host Darkangel sshd-session[8277]: pam_unix(sshd:auth): check pass; user user
+host Darkangel sshd-session[8277]: pam_winbind(sshd:auth): getting password (0x00000388)
+host Darkangel sshd-session[8277]: pam_winbind(sshd:auth): pam_get_item returned a password
+host Darkangel sshd-session[8277]: Failed password for user user whitedevil from X.X.X.X port XXXX ssh2
+host Darkangel sshd-session[8277]: Connection closed by invalid user user X.X.X.X port XXXX [preauth]
+host Darkangel sshd-session[8277]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=X.X.X.X 
+host Darkangel CRON[8739]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[8739]: pam_unix(cron:session): session closed for user user
+host Darkangel CRON[11245]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[11245]: pam_unix(cron:session): session closed for user user
+host Darkangel CRON[14666]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[14666]: pam_unix(cron:session): session closed for user user
+host Darkangel xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+host Darkangel xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+host Darkangel CRON[15927]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[15927]: pam_unix(cron:session): session closed for user user
+host Darkangel systemd-logind[781]: New seat seat0.
+host Darkangel systemd-logind[781]: Watching system buttons on /dev/input/event1 (Power Button)
+host Darkangel systemd-logind[781]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+host Darkangel polkitd[777]: Loading rules from directory /etc/polkit-1/rules.d
+host Darkangel polkitd[777]: Loading rules from directory /run/polkit-1/rules.d
+host Darkangel polkitd[777]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[777]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+host Darkangel polkitd[777]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[777]: Loading rules from directory /usr/share/polkit-1/rules.d
+host Darkangel polkitd[777]: Finished loading, compiling and executing 7 rules
+host Darkangel polkitd[777]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+host Darkangel sshd[1155]: Server listening on X.X.X.X port XXXX.
+host Darkangel sshd[1155]: Server listening on :: port XXXX.
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel systemd-logind[781]: New session c1 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[781]: New session 1 of user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel lightdm: gkr-pam: unable to locate daemon control file
+host Darkangel lightdm: gkr-pam: stashed password to try later in open session
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+host Darkangel lightdm: pam_unix(lightdm:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[781]: New session 2 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[781]: New session 3 of user user
+host Darkangel systemd-logind[781]: Removed session c1.
+host Darkangel lightdm: gkr-pam: unlocked login keyring
+host Darkangel systemd-logind[781]: Removed session 1.
+host Darkangel polkitd[777]: Registered Authentication Agent for user:2 (system bus name :1.50 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+host Darkangel CRON[3459]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[3459]: pam_unix(cron:session): session closed for user user
+host Darkangel CRON[9389]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[9389]: pam_unix(cron:session): session closed for user user
+host Darkangel CRON[11759]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[11759]: pam_unix(cron:session): session closed for user user
+host Darkangel unix_chkpwd[14909]: password check failed for user (darkangel)
+host Darkangel xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): authentication failure; logname=darkangel uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=user
+host Darkangel xfce4-screensaver-dialog: pam_winbind(xfce4-screensaver:auth): getting password (0x00000388)
+host Darkangel xfce4-screensaver-dialog: pam_winbind(xfce4-screensaver:auth): pam_get_item returned a password
+host Darkangel xfce4-screensaver-dialog: pam_winbind(xfce4-screensaver:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+host Darkangel xfce4-screensaver-dialog: pam_winbind(xfce4-screensaver:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'darkangel')
+host Darkangel systemd-logind[744]: New seat seat0.
+host Darkangel polkitd[740]: Loading rules from directory /etc/polkit-1/rules.d
+host Darkangel polkitd[740]: Loading rules from directory /run/polkit-1/rules.d
+host Darkangel polkitd[740]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[740]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+host Darkangel polkitd[740]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[740]: Loading rules from directory /usr/share/polkit-1/rules.d
+host Darkangel polkitd[740]: Finished loading, compiling and executing 7 rules
+host Darkangel polkitd[740]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+host Darkangel sshd[1072]: Server listening on X.X.X.X port XXXX.
+host Darkangel sshd[1072]: Server listening on :: port XXXX.
+host Darkangel systemd-logind[744]: Watching system buttons on /dev/input/event1 (Power Button)
+host Darkangel systemd-logind[744]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel systemd-logind[744]: New session c1 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[744]: New session 1 of user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel unix_chkpwd[2152]: password check failed for user (darkangel)
+host Darkangel lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=user
+host Darkangel lightdm: pam_winbind(lightdm:auth): getting password (0x00000388)
+host Darkangel lightdm: pam_winbind(lightdm:auth): pam_get_item returned a password
+host Darkangel lightdm: pam_winbind(lightdm:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+host Darkangel lightdm: pam_winbind(lightdm:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'darkangel')
+host Darkangel lightdm: gkr-pam: unable to locate daemon control file
+host Darkangel lightdm: gkr-pam: stashed password to try later in open session
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+host Darkangel lightdm: pam_unix(lightdm:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[744]: New session 2 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[744]: New session 3 of user user
+host Darkangel systemd-logind[744]: Removed session c1.
+host Darkangel lightdm: gkr-pam: unlocked login keyring
+host Darkangel polkitd[740]: Registered Authentication Agent for user:2 (system bus name :1.49 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+host Darkangel (sd-pam): pam_unix(systemd-user:session): session closed for user user
+host Darkangel systemd-logind[744]: Removed session 1.
+host Darkangel CRON[4259]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[4259]: pam_unix(cron:session): session closed for user user
+host Darkangel CRON[5517]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[5517]: pam_unix(cron:session): session closed for user user
+host Darkangel xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+host Darkangel xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+host Darkangel CRON[10371]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[10371]: pam_unix(cron:session): session closed for user user
+host Darkangel systemd-logind[754]: New seat seat0.
+host Darkangel polkitd[751]: Loading rules from directory /etc/polkit-1/rules.d
+host Darkangel polkitd[751]: Loading rules from directory /run/polkit-1/rules.d
+host Darkangel polkitd[751]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[751]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+host Darkangel polkitd[751]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+host Darkangel polkitd[751]: Loading rules from directory /usr/share/polkit-1/rules.d
+host Darkangel polkitd[751]: Finished loading, compiling and executing 7 rules
+host Darkangel polkitd[751]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+host Darkangel sshd[1007]: Server listening on X.X.X.X port XXXX.
+host Darkangel sshd[1007]: Server listening on :: port XXXX.
+host Darkangel systemd-logind[754]: Watching system buttons on /dev/input/event1 (Power Button)
+host Darkangel systemd-logind[754]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel systemd-logind[754]: New session c1 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[754]: New session 1 of user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session opened for user user(uid=XXXX) by (uid=0)
+host Darkangel unix_chkpwd[1869]: password check failed for user (darkangel)
+host Darkangel lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=user
+host Darkangel lightdm: pam_winbind(lightdm:auth): getting password (0x00000388)
+host Darkangel lightdm: pam_winbind(lightdm:auth): pam_get_item returned a password
+host Darkangel lightdm: pam_winbind(lightdm:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+host Darkangel lightdm: pam_winbind(lightdm:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'darkangel')
+host Darkangel unix_chkpwd[2092]: password check failed for user (darkangel)
+host Darkangel lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=user
+host Darkangel lightdm: pam_winbind(lightdm:auth): getting password (0x00000388)
+host Darkangel lightdm: pam_winbind(lightdm:auth): pam_get_item returned a password
+host Darkangel lightdm: pam_winbind(lightdm:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+host Darkangel lightdm: pam_winbind(lightdm:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'darkangel')
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel mongod: looking for user user '/home/user/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+host Darkangel lightdm: gkr-pam: unable to locate daemon control file
+host Darkangel lightdm: gkr-pam: stashed password to try later in open session
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_unix(lightdm-greeter:session): session closed for user user
+host Darkangel lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+host Darkangel lightdm: pam_unix(lightdm:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[754]: New session 2 of user user
+host Darkangel (systemd): pam_unix(systemd-user:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel systemd-logind[754]: New session 3 of user user
+host Darkangel systemd-logind[754]: Removed session c1.
+host Darkangel lightdm: gkr-pam: unlocked login keyring
+host Darkangel (sd-pam): pam_unix(systemd-user:session): session closed for user user
+host Darkangel systemd-logind[754]: Removed session 1.
+host Darkangel polkitd[751]: Registered Authentication Agent for user:2 (system bus name :1.51 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+host Darkangel CRON[4662]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[4662]: pam_unix(cron:session): session closed for user user
+host Darkangel CRON[5839]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[5839]: pam_unix(cron:session): session closed for user user
+host Darkangel sudo: user : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+host Darkangel sudo: user(sudo-i:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host ubuntu sudo: user : TTY=pts/0 ; COMMAND=/bin/bash
+host Darkangel sudo: user(sudo-i:session): session closed for user user
+host Darkangel sudo: user : TTY=pts/0 ; PWD=/home/user/soc_lab ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+host Darkangel sudo: user(sudo:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel sudo: user(sudo:session): session closed for user user
+host Darkangel sudo: user : TTY=pts/0 ; PWD=/home/user/soc_lab ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/user/auth.log.test
+host Darkangel sudo: user(sudo:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel sudo: user(sudo:session): session closed for user user
+host Darkangel sudo: user : TTY=pts/0 ; PWD=/home/user/soc_lab ; USER=root ; COMMAND=/usr/bin/sed -i 1,5d /home/user/auth.log.test
+host Darkangel sudo: user(sudo:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel sudo: user(sudo:session): session closed for user user
+host Darkangel CRON[10704]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[10705]: pam_unix(cron:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
+host Darkangel CRON[10704]: pam_unix(cron:session): session closed for user user
+host Darkangel CRON[10705]: pam_unix(cron:session): session closed for user user
+host Darkangel sudo: user : TTY=pts/0 ; PWD=/home/user/soc_lab ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/user/soc_lab/
+host Darkangel sudo: user(sudo:session): session opened for user user(uid=XXXX) by user(uid=XXXX)
