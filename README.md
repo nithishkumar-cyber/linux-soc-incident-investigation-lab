@@ -136,15 +136,18 @@ linux-soc-investigation-lab/
 ├── detection_playbook.md
 ├── artifacts/
 │   ├── auth.log
-│   ├── cron_analysis.txt
-│   ├── process_snapshot.txt
-│   ├── investigation_notes.txt
+|
 ├── screenshots/
 │   ├── auth_log_privilege_escalation.png
 │   ├── cron_persistence.png
 │   ├── log_tampering.png
 │   ├── shadow_access.png
 ├── sanitize_logs.sh
+│
+├── detections/               
+│   ├── auditd_status.png
+│   ├── auditd_rules.png
+│   ├── auditd_detection.png
 ```
 
 ---
