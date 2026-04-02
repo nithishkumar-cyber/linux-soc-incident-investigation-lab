@@ -1,12 +1,12 @@
-# 🔍 Detection Playbook
+# Detection Playbook
 
-## 📌 Objective
+## Objective
 
 This playbook is designed to detect post-compromise activity on Linux systems, including privilege escalation, persistence mechanisms, log tampering, and potential data exfiltration. It is based on analysis of a simulated compromise and aims to improve detection and response capabilities.
 
 ---
 
-## 🔍 Detection Use Cases
+## Detection Use Cases
 
 ---
 
@@ -123,7 +123,7 @@ Identify abnormal outbound network activity that may indicate data exfiltration 
 
 ---
 
-## 🛡️ Response Actions
+## Response Actions
 
 * Validate alert by reviewing associated logs and affected systems
 * Determine severity based on impact and scope
@@ -133,7 +133,7 @@ Identify abnormal outbound network activity that may indicate data exfiltration 
 
 ---
 
-## 🎯 Notes
+## Notes
 
 * Detection effectiveness depends on log availability and integrity
 * Limited visibility may occur in cases of log tampering

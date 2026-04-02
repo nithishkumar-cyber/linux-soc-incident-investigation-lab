@@ -1,10 +1,10 @@
-# 🧾 Executive Summary
+# Executive Summary
 
 A simulated Linux system compromise was analyzed involving unauthorized privilege escalation to root access. Suspicious activity including cron-based persistence, access to sensitive credential files, and authentication log tampering was identified. The observed behavior indicates post-compromise actions aimed at maintaining persistence and evading detection. The system is considered compromised with potential credential exposure.
 
 ---
 
-## 🕒 Timeline of Events
+## Timeline of Events
 
 - **09:15** — Privilege escalation to root via sudo observed
 - **09:22** — Access to sensitive file (/etc/shadow) detected
@@ -13,7 +13,7 @@ A simulated Linux system compromise was analyzed involving unauthorized privileg
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 - Unauthorized privilege escalation to root access
 - Access to sensitive credential file (/etc/shadow)
@@ -23,7 +23,7 @@ A simulated Linux system compromise was analyzed involving unauthorized privileg
 
 ---
 
-## 🚨 Indicators of Compromise (IOCs)
+## Indicators of Compromise (IOCs)
 
 - Unauthorized root-level sudo session
 - Cron job executing script from /tmp directory
@@ -33,7 +33,7 @@ A simulated Linux system compromise was analyzed involving unauthorized privileg
 
 ---
 
-## 🛡️ Remediation Recommendations
+## Remediation Recommendations
 
 - Restrict and audit sudo access to prevent unauthorized privilege escalation
 - Monitor and validate cron jobs, especially those executing from temporary directories
@@ -43,7 +43,7 @@ A simulated Linux system compromise was analyzed involving unauthorized privileg
 
 ---
 
-## 📊 Severity Assessment
+## Severity Assessment
 
 ### Severity Level: Critical
 
@@ -54,7 +54,7 @@ A simulated Linux system compromise was analyzed involving unauthorized privileg
 
 ---
 
-## 🎯 Analyst Notes
+## Analyst Notes
 
 - Cron execution from /tmp is atypical and suggests persistence behavior
 - Limited visibility into historical logs may indicate partial log tampering
