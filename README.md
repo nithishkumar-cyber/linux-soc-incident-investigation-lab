@@ -159,6 +159,19 @@ linux-soc-investigation-lab/
 
 ---
 
+## 📸 Key Detections Evidence
+
+### Auditd Rules Applied
+![Auditd Rules](./screenshots/auditd_rules.png)
+
+### Detection of Sensitive File Access
+![Auditd Cron Detection](./screenshots/auditd_detection.png)
+
+### Auditd Service Status
+![Auditd Service Running](./screenshots/auditd_status.png)
+
+---
+
 ## 📄 Full Incident Report
 
 A complete timeline-based investigation report is available here:
