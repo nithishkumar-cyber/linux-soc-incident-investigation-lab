@@ -162,13 +162,13 @@ linux-soc-investigation-lab/
 ## 📸 Key Detections Evidence
 
 ### Auditd Rules Applied
-![Auditd Rules](./screenshots/auditd_rules.png)
+![Auditd Rules](./detections/auditd_rules.png)
 
 ### Detection of Sensitive File Access
-![Auditd Cron Detection](./screenshots/auditd_detection.png)
+![Auditd Cron Detection](./detections/auditd_detection.png)
 
 ### Auditd Service Status
-![Auditd Service Running](./screenshots/auditd_status.png)
+![Auditd Service Running](./detections/auditd_status.png)
 
 ---
 
