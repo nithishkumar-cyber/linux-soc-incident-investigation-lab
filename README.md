@@ -137,11 +137,6 @@ linux-soc-investigation-lab/
 ├── artifacts/
 │   ├── auth.log
 |
-├── screenshots/
-│   ├── auth_log_privilege_escalation.png
-│   ├── cron_persistence.png
-│   ├── log_tampering.png
-│   ├── shadow_access.png
 ├── sanitize_logs.sh
 │
 ├── detections/               
@@ -169,22 +164,6 @@ linux-soc-investigation-lab/
 A complete timeline-based investigation report is available here:
 
 [View Incident Report](./incident_report.md)
-
----
-
-## 📸 Key Investigation Evidence
-
-### Privilege Escalation (sudo abuse)
-![Privilege Escalation](./screenshots/auth_log_privilege_escalation.png)
-
-### Persistence Mechanism (cron job)
-![Cron Persistence](./screenshots/cron_persistence.png)
-
-### Log Tampering Indicators
-![Log Tampering](./screenshots/log_tampering.png)
-
-### Sensitive File Access (/etc/shadow)
-![Shadow Access](./screenshots/shadow_access.png)
 
 ---
 
