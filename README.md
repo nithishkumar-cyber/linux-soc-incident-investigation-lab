@@ -141,7 +141,7 @@ linux-soc-investigation-lab/
 │
 ├── detections/               
 │   ├── auditd_status.png
-│   ├── auditd_rules.png
+│   ├── auditd_rule.png
 │   ├── auditd_detection.png
 ```
 
@@ -162,7 +162,7 @@ linux-soc-investigation-lab/
 ## 📸 Key Detections Evidence
 
 ### Auditd Rules Applied
-![Auditd Rules](./detections/auditd_rules.png)
+![Auditd Rules](./detections/auditd_rule.png)
 
 ### Detection of Sensitive File Access
 ![Auditd Cron Detection](./detections/auditd_detection.png)
