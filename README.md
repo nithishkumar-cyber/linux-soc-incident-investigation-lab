@@ -100,7 +100,7 @@ A structured timeline of attacker activity has been reconstructed, including:
 * Evidence tampering
 * Sensitive data access
 
-📄 Full timeline available in: `incident_report.md`
+Full timeline available in: `incident_report.md`
 
 ---
 
@@ -122,8 +122,8 @@ Basic host-based detection was implemented using **auditd**:
 * Identifying abnormal privilege usage
 * Detecting persistence mechanisms via cron anomalies
 
-📄 Detection logic and implementation:
-👉 `detection_playbook.md`
+Detection logic and implementation:
+`detection_playbook.md`
 
 ---
 
@@ -164,16 +164,27 @@ linux-soc-investigation-lab/
 
 ---
 
-## 📸 Evidence
+## 📄 Full Incident Report
 
-Screenshots are included to support key findings:
+A complete timeline-based investigation report is available here:
 
-* Privilege escalation activity
-* Cron-based persistence
-* Log inconsistencies
-* Sensitive file access
+[View Incident Report](./incident_report.md)
 
-📁 See: `screenshots/`
+---
+
+## 📸 Key Investigation Evidence
+
+### Privilege Escalation (sudo abuse)
+![Privilege Escalation](./screenshots/auth_log_privilege_escalation.png)
+
+### Persistence Mechanism (cron job)
+![Cron Persistence](./screenshots/cron_persistence.png)
+
+### Log Tampering Indicators
+![Log Tampering](./screenshots/log_tampering.png)
+
+### Sensitive File Access (/etc/shadow)
+![Shadow Access](./screenshots/shadow_access.png)
 
 ---
 
